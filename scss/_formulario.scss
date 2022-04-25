@@ -1,0 +1,32 @@
+.formulariocont{
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+form{
+    justify-content: center;
+    h2{
+  display: inline-block;
+  justify-content: space-between;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
+        
+    }
+    input{
+        width: 450px;
+    }
+
+    textarea{
+        width: 450px;
+    }
+    button{
+        width: 300px;
+        font-size: 27px;
+        height: 36px;
+    }
+    button:hover{
+        background-color: rgb(3, 58, 58);
+    }
+    
+}
+

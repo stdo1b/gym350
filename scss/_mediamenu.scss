@@ -1,0 +1,92 @@
+
+    @media only screen and (max-width: 500px) and (min-width: 360px) {
+.hdr1{
+    background: none;
+    background-image: url(../media/p1.png);
+}
+     
+     ul{
+         text-align: left;
+         
+     }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 16px;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 12px;
+        }
+        a:hover{
+            color:rgb(6, 48, 48);
+        }
+    
+  }
+
+  @media only screen and (min-width:700px)and(max-width:920px) {
+    .hdr1{
+        background: url(../media/tbl1.jpg);
+        background-size: cover;
+    }
+    
+    
+    ul{
+         text-align: center;
+         display: flex;
+         padding: 10px;
+         
+     }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+         padding: 17px;
+         font-family: 'Bebas Neue', cursive;
+            font-size: 20px;
+        }
+        a:hover{
+            color:rgb(6, 48, 48);
+        }
+  }
+
+  @media only screen and (max-width: 500px) and (min-width: 360px) {
+      
+
+  .hdr2{
+      background-color: black;
+    a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 14px;
+    }
+    a:hover{
+        color:rgb(6, 48, 48);
+        }
+}
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 920px) {
+      
+
+    .hdr2{
+        background-color: black;
+      a{
+      text-decoration: none;
+      color: white;
+      padding: 42px;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 16px;
+      }
+      a:hover{
+          color:rgb(6, 48, 48);
+          }
+  }
+  
+  }

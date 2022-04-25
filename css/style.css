@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.hdr1 {
+  background: url(../media/ytytr1.jpg);
+  height: 100vh; }
+
+ul {
+  text-align: center;
+  display: flex;
+  padding: 15px; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 17px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 27px; }
+
+a:hover {
+  color: #063030; }
+
+.hdr2 a {
+  text-decoration: none;
+  color: white;
+  padding: 70px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 27px; }
+
+.hdr2 a:hover {
+  color: #063030; }
+
+.grdd1 {
+  margin: 30px;
+  padding: 40px; }
+  .grdd1 .grid div {
+    padding: 2px; }
+  .grdd1 .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 3px; }
+
+.descrip1 h2 {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+  font-family: 'Bebas Neue', cursive; }
+
+.descrip1 p {
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', cursive; }
+
+.grd1 {
+  margin: 77px;
+  padding: 10px; }
+  .grd1 h3 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding: 7px; }
+  .grd1 h3:hover {
+    color: #003535; }
+  .grd1 .grid div {
+    padding: 4px; }
+  .grd1 .grd1 img {
+    border-style: groove; }
+  .grd1 .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 3px; }
+
+.bienvenidos h2 {
+  text-align: center;
+  font-size: 53px;
+  font-family: 'Bebas Neue', cursive;
+  padding: 20px; }
+
+.formulariocont {
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', cursive; }
+
+form {
+  justify-content: center; }
+  form h2 {
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive; }
+  form input {
+    width: 450px; }
+  form textarea {
+    width: 450px; }
+  form button {
+    width: 300px;
+    font-size: 27px;
+    height: 36px; }
+  form button:hover {
+    background-color: #033a3a; }
+
+.adicionales h2 {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Bebas Neue', cursive;
+  margin: 29px; }
+
+@media only screen and (max-width: 500px) and (min-width: 360px) {
+  .hdr1 {
+    background: none;
+    background-image: url(../media/p1.png); }
+  ul {
+    text-align: left; }
+  li {
+    list-style: none; }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12px; }
+  a:hover {
+    color: #063030; } }
+
+@media only screen and (min-width: 700px) and (max-width: 920px) {
+  .hdr1 {
+    background: url(../media/tbl1.jpg);
+    background-size: cover; }
+  ul {
+    text-align: center;
+    display: flex;
+    padding: 10px; }
+  li {
+    list-style: none; }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 17px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px; }
+  a:hover {
+    color: #063030; } }
+
+@media only screen and (max-width: 500px) and (min-width: 360px) {
+  .hdr2 {
+    background-color: black; }
+    .hdr2 a {
+      text-decoration: none;
+      color: white;
+      padding: 8px;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 14px; }
+    .hdr2 a:hover {
+      color: #063030; } }
+
+@media only screen and (min-width: 700px) and (max-width: 920px) {
+  .hdr2 {
+    background-color: black; }
+    .hdr2 a {
+      text-decoration: none;
+      color: white;
+      padding: 42px;
+      font-family: 'Exo 2', sans-serif;
+      font-size: 16px; }
+    .hdr2 a:hover {
+      color: #063030; } }
+
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .grdd1 {
+    margin: 30px;
+    padding: 40px; }
+    .grdd1 .grid div {
+      padding: 2px; }
+    .grdd1 .grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      gap: 3px; }
+  .descrip1 h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive; }
+  .descrip1 p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive; } }
+
+@media screen and (min-width: 700px) and (max-width: 920px) {
+  .grdd1 {
+    margin: 30px;
+    padding: 40px; }
+    .grdd1 .grid div {
+      padding: 2px; }
+    .grdd1 .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      gap: 3px; }
+  .descrip1 h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive; }
+  .descrip1 p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive; } }
+
+@media screen and (min-width: 360px) and (max-width: 500px) {
+  .grd1 {
+    margin: 25px;
+    padding: 4px; }
+    .grd1 h3 {
+      font-size: 20px;
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      padding: 7px; }
+    .grd1 h3:hover {
+      color: #003535; }
+    .grd1 .grid div {
+      padding: 4px; }
+    .grd1 .grd1 img {
+      border-style: groove; }
+    .grd1 .grid {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      gap: 3px; } }
+
+@media screen and (min-width: 700px) and (max-width: 920px) {
+  .grd1 {
+    margin: 25px;
+    padding: 4px; }
+    .grd1 h3 {
+      font-size: 20px;
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      padding: 7px; }
+    .grd1 h3:hover {
+      color: #003535; }
+    .grd1 .grid div {
+      padding: 4px; }
+    .grd1 .grd1 img {
+      border-style: groove; }
+    .grd1 .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+      gap: 3px; } }
+
+footer {
+  background-color: rgba(17, 17, 17, 0.808);
+  font-family: 'Exo 2', sans-serif;
+  margin: 30px; }
+  footer h3 {
+    text-align: center; }
+  footer p {
+    text-align: center; }
+  footer a {
+    color: white; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #0f0d0d;
+  color: white; }

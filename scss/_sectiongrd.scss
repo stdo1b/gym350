@@ -1,0 +1,63 @@
+
+
+
+.grdd1{
+    margin: 30px;
+    padding: 40px;
+ .grid div{
+    padding: 2px;
+ }
+ 
+ .grid{
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     grid-auto-rows: minmax(100px, auto);
+     gap: 3px;
+ }
+ 
+ }
+
+.descrip1{
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        font-family: 'Bebas Neue', cursive;
+    }
+    p{
+        text-align: center;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+
+
+
+
+.grd1{
+   margin: 77px;
+   padding: 10px;
+   h3{
+       font-size: 20px;
+       color: white;
+       font-family: 'Bebas Neue', cursive;
+       padding: 7px;
+   }
+   h3:hover{
+       color: rgb(0, 53, 53);
+   }
+.grid div{
+   padding: 4px;
+}
+
+.grd1 img{
+    border-style: groove;
+}
+.grid{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 3px;
+}
+
+}
